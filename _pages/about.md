@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: MS Computer Science students pursuing research in representation learning and robustness.
+subtitle: Research students interested in representation learning and robustness.
 
 profile:
   align: right
