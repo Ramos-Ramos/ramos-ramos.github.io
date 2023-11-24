@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Patrick Ramos",
-    "label": "MS Computer Science Student",
+    "status": "Research Student",
     "image": "",
-    "email": "patrick.john.ramos@obf.ateneo.edu",
+    "email": "patrickramos@is.ids.osaka-u.ac.jp",
     // "phone": "(912) 123-4567",
     "url": "https://ramos-ramos.github.io/",
-    "summary": "MS Computer Science student studying at Ateneo de Manila University.",
+    "summary": "Research student at the ISLab of Osaka University.",
     // "location": {
     //   "address": "2712 Broadway St",
     //   "postalCode": "CA 94115",
@@ -66,7 +66,7 @@
       "area": "Computer Science",
       "studyType": "Master of Science",
       "startDate": "2022-06",
-      "endDate": "present",
+      "endDate": "2023-07",
       "score": "",
       "courses": [
         // "Theory of Relativity"

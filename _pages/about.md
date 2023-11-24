@@ -18,7 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**Patrick and Ryan Ramos**. MS Computer Science students at Ateneo de Manila University, under the [Ateneo Laboratory for Intelligent Visual Environment](https://www.researchgate.net/lab/Ateneo-Laboratory-for-Intelligent-Visual-Environment-ALIVE-Patricia-Angela-Abu).
+**Patrick and Ryan Ramos**. Research students at the [ISLab](https://www.is.ids.osaka-u.ac.jp/) under the Institute of Datability Science at Osaka University.
+
+<!-- Formerly MS Computer Science students at Ateneo de Manila University, under the [Ateneo Laboratory for Intelligent Visual Environment](https://www.researchgate.net/lab/Ateneo-Laboratory-for-Intelligent-Visual-Environment-ALIVE-Patricia-Angela-Abu). -->
 
 Our research interests include `representation learning` and `robustness to distribution shifts`.
 

@@ -11,8 +11,8 @@ last_name_0: Ramos
 first_name_1: Ryan
 last_name_1: Ramos
 email: # you@example.com
-email_0: patrick.john.ramos@obf.ateneo.edu
-email_1: ryan.ramos@obf.ateneo.edu
+email_0: patrickramos@is.ids.osaka-u.ac.jp
+email_1: ryanramos@is.ids.osaka-u.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -168,8 +168,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+    # rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
