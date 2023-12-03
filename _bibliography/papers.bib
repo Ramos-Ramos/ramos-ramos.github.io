@@ -28,10 +28,14 @@
     bibtex_show={true},
     title = {Knowledge Distillation with Relative Representations for Image Representation Learning},
     author = {Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
-    booktitle = {Progress on Pattern Classification, Image Processing and Communications},
+    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
     month = june,
     year = {2023},
+    url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_14",
+    doi = "https://doi.org/10.1007/978-3-031-41630-9_14",
     abstract = {Relative representations allow the alignment of latent spaces which embed data in extrinsically different manners but with similar relative distances between data points. This ability to compare different latent spaces for the same input lends itself to knowledge distillation techniques. We explore the applicability of relative representations to knowledge distillation by training a student model such that the relative representations of its outputs match the relative representations of the outputs of a teacher model. We test our Relative Representation Knowledge Distillation (RRKD) scheme on supervised and self-supervised image representation learning with MNIST and show that an encoder can be compressed to 47.71\% of its original size while maintaining 91.92\% of its full performance. We demonstrate that RRKD is competitive with or outperforms other relation-based distillation schemes in traditional distillation setups (CIFAR-10, CIFAR-100, SVHN) and in a transfer learning setting (Stanford Cars, Oxford-IIIT Pets, Oxford Flowers-102). Our results indicate that relative representations are an effective signal for knowledge distillation. Code will be made available at https://github.com/Ramos-Ramos/rrkd.},
+    html = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_14",
+    pdf = "CORES_2023_Knowledge_Distillation_with_Relative_Representations_for_Image_Representation_Learning.pdf"
 }
 
 @inproceedings{ramos2023exploring,
@@ -39,10 +43,14 @@
     bibtex_show={true},
     title = {Exploring Text-Guided Synthetic Distribution Shifts for Robust Image Classification},
     author = {Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
-    booktitle = {Progress on Pattern Classification, Image Processing and Communications},
+    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
     month = june,
     year = {2023},
+    url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_16",
+    doi = "https://doi.org/10.1007/978-3-031-41630-9_16",
     abstract = {The empirical risk minimization approach of contemporary machine learning leads to potential failures under distribution shifts. While out-of-distribution data can be used to probe for robustness issues, collecting this at scale in the wild can be difficult given its nature. We propose a novel method to generate this data using pretrained foundation models. We train a language model to generate class-conditioned image captions that minimize their cosine similarity with that of corresponding class images from the original distribution. We then use these captions to synthesize new images with off-the-shelf text-to-image generative models. We show our method's ability to generate samples from shifted distributions, and the quality of the data for both robustness testing and as additional training data to improve generalization.},
+    html = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_16",
+    pdf = "CORES_2023_Exploring_Text_Guided_Synthetic_Distribution_Shifts_for_Robust_Image_Classification.pdf"
 }
 
 @mastersthesis{ramos2023distillclip,
@@ -54,7 +62,8 @@
   year={2023},
   address={Quezon City, Philippines},
   month=june,
-  abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.}
+  abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.},
+  pdf="Ramos_Patrick_MS_Thesis_Manuscript.pdf"
 }
 
 @mastersthesis{ramos2023causal,
@@ -66,5 +75,6 @@
   year={2023},
   address={Quezon City, Philippines},
   month=june,
-  abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.}
+  abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.},
+  pdf="Ramos_Ryan_MS Thesis.pdf"
 }
