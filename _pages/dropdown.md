@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
+title: cvs
 nav: true
-nav_order: 8
+nav_order: 4
 dropdown: true
-children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+children: 
+    - title: patrick's cv
+      permalink: /cv_patrick/
+    - title: divider
+    - title: ryan's cv
+      permalink: /cv_ryan/
 ---

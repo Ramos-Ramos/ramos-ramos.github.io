@@ -1,6 +1,9 @@
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
+{%- if site.huggingface_username -%}
+<a href="https://huggingface.co/{{ site.huggingface_username }}" title="huggingface"><i class="fas fa-face-smile-beam"></i></a>
+{% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
 {% endif %}
@@ -127,4 +130,24 @@
     <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
   </div>
   {% include scripts/wechatModal.liquid %}
+{% endif %}
+{%- if site.first_name_0 -%}
+<br>
+<i class="fa-solid fa-p"></i>
+{% endif %}
+{%- if site.email_0 -%}
+<a href="mailto:{{ site.email_0 | encode_email }}" title="{{site.first_name_0}}'s email"><i class="fas fa-envelope"></i></a>
+{% endif %}
+{% if site.x_username_0 %}
+  <a href="https://twitter.com/{{ site.x_username_0 }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+{% endif %}
+{%- if site.first_name_1 -%}
+<br>
+<i class="fa-solid fa-r"></i>
+{% endif %}
+{%- if site.email_1 -%}
+<a href="mailto:{{ site.email_1 | encode_email }}" title="{{site.first_name_1}}'s email"><i class="fas fa-envelope"></i></a>
+{% endif %}
+{% if site.x_username_1 %}
+  <a href="https://twitter.com/{{ site.x_username_1 }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
 {% endif %}

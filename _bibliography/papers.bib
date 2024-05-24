@@ -1,113 +1,80 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{ramos-etal-2022-emotion,
+    abbr={WASSA 2022},
+    bibtex_show={true},
+    title = "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations",
+    author = "Ramos, Patrick John  and
+      Ferawati, Kiki  and
+      Liew, Kongmeng  and
+      Aramaki, Eiji  and
+      Wakamiya, Shoko",
+    booktitle = "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wassa-1.10",
+    doi = "10.18653/v1/2022.wassa-1.10",
+    pages = "95--103",
+    abstract = "Public opinion in social media is increasingly becoming a critical factor in pandemic control. Understanding the emotions of a population towards vaccinations and COVID-19 may be valuable in convincing members to become vaccinated. We investigated the emotions of Japanese Twitter users towards Tweets related to COVID-19 vaccination. Using the WRIME dataset, which provides emotion ratings for Japanese Tweets sourced from writers (Tweet posters) and readers, we fine-tuned a BERT model to predict levels of emotional intensity. This model achieved a training accuracy of $MSE$ = 0.356. A separate dataset of 20,254 Japanese Tweets containing COVID-19 vaccine-related keywords was also collected, on which the fine-tuned BERT was used to perform emotion analysis. Afterwards, a correlation analysis between the extracted emotions and a set of vaccination measures in Japan was conducted.The results revealed that surprise and fear were the most intense emotions predicted by the model for writers and readers, respectively, on the vaccine-related Tweet dataset. The correlation analysis also showed that vaccinations were weakly positively correlated with predicted levels of writer joy, writer/reader anticipation, and writer/reader trust.",
+    html="https://aclanthology.org/2022.wassa-1.10/",
+    pdf="https://aclanthology.org/2022.wassa-1.10.pdf"
 }
 
-@book{einstein1956investigations,
+@inproceedings{ramos2023knowledge,
+    abbr={CORES'23},
+    bibtex_show={true},
+    title = {Knowledge Distillation with Relative Representations for Image Representation Learning},
+    author = {Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
+    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
+    month = june,
+    year = {2023},
+    url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_14",
+    doi = "https://doi.org/10.1007/978-3-031-41630-9_14",
+    abstract = {Relative representations allow the alignment of latent spaces which embed data in extrinsically different manners but with similar relative distances between data points. This ability to compare different latent spaces for the same input lends itself to knowledge distillation techniques. We explore the applicability of relative representations to knowledge distillation by training a student model such that the relative representations of its outputs match the relative representations of the outputs of a teacher model. We test our Relative Representation Knowledge Distillation (RRKD) scheme on supervised and self-supervised image representation learning with MNIST and show that an encoder can be compressed to 47.71\% of its original size while maintaining 91.92\% of its full performance. We demonstrate that RRKD is competitive with or outperforms other relation-based distillation schemes in traditional distillation setups (CIFAR-10, CIFAR-100, SVHN) and in a transfer learning setting (Stanford Cars, Oxford-IIIT Pets, Oxford Flowers-102). Our results indicate that relative representations are an effective signal for knowledge distillation. Code will be made available at https://github.com/Ramos-Ramos/rrkd.},
+    html = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_14",
+    pdf = "CORES_2023_Knowledge_Distillation_with_Relative_Representations_for_Image_Representation_Learning.pdf"
+}
+
+@inproceedings{ramos2023exploring,
+    abbr={CORES'23},
+    bibtex_show={true},
+    title = {Exploring Text-Guided Synthetic Distribution Shifts for Robust Image Classification},
+    author = {Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
+    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
+    month = june,
+    year = {2023},
+    url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_16",
+    doi = "https://doi.org/10.1007/978-3-031-41630-9_16",
+    abstract = {The empirical risk minimization approach of contemporary machine learning leads to potential failures under distribution shifts. While out-of-distribution data can be used to probe for robustness issues, collecting this at scale in the wild can be difficult given its nature. We propose a novel method to generate this data using pretrained foundation models. We train a language model to generate class-conditioned image captions that minimize their cosine similarity with that of corresponding class images from the original distribution. We then use these captions to synthesize new images with off-the-shelf text-to-image generative models. We show our method's ability to generate samples from shifted distributions, and the quality of the data for both robustness testing and as additional training data to improve generalization.},
+    html = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_16",
+    pdf = "CORES_2023_Exploring_Text_Guided_Synthetic_Distribution_Shifts_for_Robust_Image_Classification.pdf"
+}
+
+@mastersthesis{ramos2023distillclip,
+  abbr={MS Thesis},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  author={Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
+  title={DistillCLIP: Knowledge Distillation of Contrastive Language-Image Pretrained Models},
+  school={Ateneo de Manila University},
+  year={2023},
+  address={Quezon City, Philippines},
+  month=june,
+  abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.},
+  pdf="Ramos_Patrick_MS_Thesis_Manuscript.pdf"
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@mastersthesis{ramos2023causal,
+  abbr={MS Thesis},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  author={Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
+  title={Causal Interventions for Robust Visual Question Answering},
+  school={Ateneo de Manila University},
+  year={2023},
+  address={Quezon City, Philippines},
+  month=june,
+  abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.},
+  pdf="Ramos_Ryan_MS Thesis.pdf"
 }
