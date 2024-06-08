@@ -139,11 +139,17 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
-lsi: true # produce an index for related posts
+lsi: false # produce an index for related posts
+
+main_blog_name: research blog # blog_name will be displayed in your blog page
+main_blog_description: ideally some research stuff
+
+personal_blog_name: personal blog # blog_name will be displayed in your blog page
+personal_blog_description: ideally comics, baseball, etc.
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false # because blog is split into to I can't figure out pagination for filtered category
 
 related_blog_posts:
   enabled: true
@@ -296,6 +302,12 @@ jekyll-archives:
 
 display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
 display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+
+main_display_tags: [] # these tags will be displayed on the front page of your blog
+main_display_categories: [] # these categories will be displayed on the front page of your blog
+
+personal_display_tags: [] # these tags will be displayed on the front page of your blog
+personal_display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
