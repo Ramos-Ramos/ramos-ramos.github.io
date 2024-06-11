@@ -16,6 +16,8 @@ toc:
   - name: Frame-story structure and psychic distance
   - name: Contrast in anthropomorphic animals
   - name: Never fully identifying
+
+bibliography: 2024-06-09-maus-empathic-unsettlement.bib
 ---
 
 *This was an essay I wrote for an English class when I was a freshmen in college around 2018-2019. I decided to cut down the title, add sections, and share it here.*
@@ -74,3 +76,18 @@ The fact that both Vladek and Art allude to the intensity of the father’s psyc
 ## Never fully identifying
 
 In conclusion, this paper, while not assuming the reactions of readers, asserts that any empathy aroused in readers by Maus may be empathic unsettlement. It argues this through revealing how the trauma expressed by the work is secondary (due to a psychic distance resulting from its frame story structure) and muted (due to the contrasting nature of animal use in literature and the traumatic events covered in the book). The study of empathic unsettlement is significant as LaCapra believes that such a type of empathy prevents objectification of suffering while still allowing exposure to it.<d-footnote>See LaCapra (2001), 102.</d-footnote> All this means to say is that in cases where the only knowledge one has of the Shoah is through testimonies of actual victims, the most desirable way for them to respond would be to remain empathically unsettled. Never fully identifying, but nonetheless, still understanding.
+
+<d-cite key='hirsch1992family' hidden></d-cite>
+<d-cite key='hirsch2008generation' hidden></d-cite>
+<d-cite key='costello2006history' hidden></d-cite>
+<d-cite key='lacapra2001writing' hidden></d-cite>
+<d-cite key='gardner1984art' hidden></d-cite>
+<d-cite key='clute199encyclopedia' hidden></d-cite>
+<d-cite key='spiegelman1991maus' hidden></d-cite>
+<d-cite key='spiegelman1986maus' hidden></d-cite>
+<d-cite key='brown1993maus' hidden></d-cite>
+<d-cite key='markowsky1975anthropomorphism' hidden></d-cite>
+<d-cite key='lacapra1998history' hidden></d-cite>
+
+
+
