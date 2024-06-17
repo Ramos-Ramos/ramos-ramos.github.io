@@ -8,8 +8,13 @@ date: 2024-06-13
 authors:
   - name: Patrick Ramos
     url: "https://ramos-ramos.github.io/"
-    affiliations:
-      name:
+    # affiliations:
+    #   name:
+
+  - name: Ryan Ramos
+    url: "https://ramos-ramos.github.io/"
+    # affiliations:
+    #   name:
 
 toc:
   - name: Welcome to the pitching lab
