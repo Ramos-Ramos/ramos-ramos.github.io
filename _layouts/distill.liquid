@@ -24,6 +24,13 @@
         {{ page._styles }}
       </style>
     {% endif %}
+    <meta>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description}}">
+    {% if page.thumbnail %}
+      <meta name="twitter:image" content="{{page.thumbnail | relative_url}}">
+    {% endif %}
   </head>
 
   <d-front-matter>
