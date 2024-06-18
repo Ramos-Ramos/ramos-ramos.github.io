@@ -29,14 +29,14 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.description}}" />
     {% if page.thumbnail %}
-      <meta name="twitter:image:src" content="{{page.thumbnail | absolute_url}}" />
+      <meta name="twitter:image:src" content="{{ page.thumbnail | absolute_url }}" />
     {% endif %}
 
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ page.description}}" />
     {% if page.thumbnail %}
-      <meta property="og:image" content="page.thumbnail | absolute_url" />
+      <meta property="og:image" content="{{ page.thumbnail | absolute_url }}" />
     {% endif %}
 
   </head>
