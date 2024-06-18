@@ -24,11 +24,11 @@
         {{ page._styles }}
       </style>
     {% endif %}
-    <meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:title" content="{{ page.title }}"></meta>
-    <meta name="twitter:description" content="{{ page.description}}"></meta>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description}}">
     {% if page.thumbnail %}
-      <meta name="twitter:image" content="{{page.thumbnail | absolute_url}}"></meta>
+      <meta name="twitter:image:src" content="{{page.thumbnail | absolute_url}}"></meta>
     {% endif %}
   </head>
 
