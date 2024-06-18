@@ -28,7 +28,7 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description}}">
     {% if page.thumbnail %}
-      <meta name="twitter:image" content="{{page.thumbnail | relative_url}}">
+      <meta name="twitter:image" content="{{page.thumbnail | absolute_url}}">
     {% endif %}
   </head>
 
