@@ -24,7 +24,7 @@ toc:
   - name: "4. The comeback kid: Ren Mukunoki"
   - name: "5. The unproven: Kazuma Satoh"
   - name: Pitching lab goes brrr (I have no better header for a conclusion)
-thumbnail: assets/img/orix_pitching_lab/orix_pitching_lab_preview.png
+thumbnail: /assets/img/orix_pitching_lab/orix_pitching_lab_preview.png
 ---
 
 <div class="row mt-3">
