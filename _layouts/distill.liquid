@@ -24,12 +24,21 @@
         {{ page._styles }}
       </style>
     {% endif %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description}}">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.description}}" />
     {% if page.thumbnail %}
-      <meta name="twitter:image:src" content="{{page.thumbnail | absolute_url}}"></meta>
+      <meta name="twitter:image:src" content="{{page.thumbnail | absolute_url}}" />
     {% endif %}
+
+    <meta property="og:url" content="https://ramos-ramos.github.io/blog/2024/orix-pitching-lab/" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description}}" />
+    {% if page.thumbnail %}
+      <meta property="og:image" content="page.thumbnail | absolute_url" />
+    {% endif %}
+
   </head>
 
   <d-front-matter>
