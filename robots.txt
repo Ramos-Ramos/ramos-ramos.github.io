@@ -1,6 +1,9 @@
 ---
 permalink: /robots.txt
 ---
+User-agent: Twitterbot
+Disallow:
+
 User-agent: *
 Disallow:
 
