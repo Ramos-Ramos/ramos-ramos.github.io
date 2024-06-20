@@ -3,7 +3,7 @@ layout: distill
 title: "orix pitching lab goes brrr: 5 new(ish) buffaloes pitchers to keep an eye on this year"
 description: brrrrrr
 categories: personal baseball
-date: 2024-06-13
+date: 2024-06-18
 
 authors:
   - name: Patrick Ramos
@@ -23,7 +23,7 @@ toc:
   - name: "3. The rookie: Seiryu Kotajima"
   - name: "4. The comeback kid: Ren Mukunoki"
   - name: "5. The unproven: Kazuma Satoh"
-  - name: Pitching lab goes brrr (I have no better header for a conclusion)
+  - name: Pitching lab goes brrr (We have no better header for a conclusion)
 thumbnail: /assets/img/orix_pitching_lab/orix_pitching_lab_preview.png
 ---
 
@@ -43,9 +43,9 @@ Some disclaimers before we continue:
 
 1. None of these names are surprising. If you follow [Yakyu Cosmopolitan](https://twitter.com/yakyucosmo), you'll have definitely heard of these names. It's still interesting however that these are not players who played regularly on the top team last season.
 
-2. I am far, far from anything even remotely resembling a player evaluator. Don't expect any cool discussions about the shape of their fastball or how they improved their mechanics this offseason or anything like that (I certainly wish I was smart enough to talk about those things).
+2. We are far, far from anything even remotely resembling a player evaluator. Don't expect any cool discussions about the shape of their fastball or how they improved their mechanics this offseason or anything like that (we certainly wish we were smart enough to talk about those things).
 
-3. Just to be clear, I'm not running an Orix fan page here. I like players, not teams, and Orix just happens to produce a lot of players I find interesting.
+3. Just to be clear, we're not running an Orix fan page here. We like players, not teams, and Orix just happens to produce a lot of players we find interesting.
 
 ## 1. The obvious one: Ryuhei Sotani
 
@@ -105,7 +105,7 @@ If Ryuhei Sotani has already graduated, who is now Orix's No. 1 prospect? That w
 
 <!-- Scouts have noted his fastball, which currently sits around 91 mph but can reach 94 mph. He throws it roughly 51% of the time and opponents are batting 0.150 against it, again albeit a small sample size. -->
 
-His sub-1.00 ERA may last long as he's got a 44.00 OFFB% on the top team and a 43.6 OFFB% as a starter on the farm in a similar sample size, but again these samples might be small.
+His sub-1.00 ERA may not last long as he's got a 44.00 OFFB% on the top team and a 43.6 OFFB% as a starter on the farm in a similar sample size, but again these samples might be small.
 
 Saito's still a prospect and as such may be expected to grow further still, but if he can maintain his current success and fully break out, perhaps we could be looking at the newest full-time member of the Orix rotation.
 
@@ -171,11 +171,11 @@ Perhaps his performance on the farm, which got him a 82 FIP- and 90 xFIP-, final
 
 The verdict is still not out for Kazuma Satoh as he's hasn't pitched much on the top team so far, but it'd be interesting to see how often they go back to him again later this year, if they do.
 
-## Pitching lab goes brrr (I have no better header for a conclusion)
+## Pitching lab goes brrr (We have no better header for a conclusion)
 
-Before I conclude, I should probably add Kohei Azuma as an honorable mention. Like Sotani, he also only played less than 10 games last year, so this is his first year being in the rotation from the get-go.
+Before we conclude, we should probably add Kohei Azuma as an honorable mention. Like Sotani, he also only played less than 10 games last year, so this is his first year being in the rotation from the get-go.
 
-Anyway, that's the list. I probably missed some good names to include here, and again, these players aren't necessarily hidden gems. Just thought that these guys would be fun to keep tabs on this year.
+Anyway, that's the list. We probably missed some good names to include here, and again, these players aren't necessarily hidden gems. Just thought that these guys would be fun to keep tabs on this year.
 
 ### Data Sources:
 
