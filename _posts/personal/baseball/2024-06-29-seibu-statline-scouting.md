@@ -100,7 +100,7 @@ If we were to widen our scope to the entire NPB farm system, Sugiyama’s contro
 | Minato Aoyama |    23 | SP     |   49 |  4.2  |   4.03 |    114 |     109 |  52.8 |    30.7 |
 | Yutaro Watanabe |    23 | SP     |   24 |  4.28 |   4.63 |    116 |     126 |  54.9 |    28.4 |
 
-Aside from strikeouts and walks, we can also take a look at batted ball distributions. If we filter to Lions farm pitchers with a minimum 15 IP who have a GB% over 50 and an OFFB% less than or equal to 33, only 2019 7th round pick Towa Uema has a FIP- and xFP- below 100. While the 23-year-old isn’t putting up the gaudiest strikeout and walk numbers, his ability to keep batted balls more on the ground and less in the air has helped him get to a 2.12 ERA.
+Aside from strikeouts and walks, we can also take a look at batted ball distributions. If we filter to Lions farm pitchers with a minimum 15 IP who have a GB% over 50 and an OFFB% less than or equal to 33, only 2019 7th round pick Towa Uema has a FIP- and xFIP- below 100. While the 23-year-old isn’t putting up the gaudiest strikeout and walk numbers, his ability to keep batted balls more on the ground and less in the air has helped him get to a 2.12 ERA.
 
 <div class="l-body" align="center">
   <iframe src="{{ '/assets/plotly/seibu_statline_scouting/uema_gb_offb_ip.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
