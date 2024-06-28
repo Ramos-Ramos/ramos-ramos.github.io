@@ -24,7 +24,8 @@ toc:
   - name: "4. The comeback kid: Ren Mukunoki"
   - name: "5. The unproven: Kazuma Satoh"
   - name: Pitching lab goes brrr (We have no better header for a conclusion)
-thumbnail: /assets/img/orix_pitching_lab/orix_pitching_lab_preview.png
+
+thumbnail: /assets/img/orix_pitching_lab/orix_pitching_lab.png
 ---
 
 <div class="row mt-3">
@@ -64,7 +65,7 @@ Where else to start other than Ryuhei Sotani. Yakyu Cosmopolitan had Sotani pegg
 Sotani was Orix's first round draft pick in 2022, and started only 7 games in 2023. This season marks his first a full-fledged member of the rotation, where he's been helping Anderson Espinoza and Luis Castillo carry the load for an Orix rotation that has lost Yamamoto (MLB), Miyagi (injured), Yamashita (who was working out some things on the farm, but just came back recently), Yamasaki (Nippon-Ham), and Yamaoka (injured to start the season).
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/orix_rotation.html' | relative_url }}" frameborder='0' scrolling='no' height="550px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/orix_rotation.html' | relative_url }}" frameborder='0' scrolling='no' height="550px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>Sotani has been one of the best domestic starters in Orix's rotation with Miyagi out.</div>
 
@@ -76,7 +77,7 @@ Of the rotation they've had in May since Miyagi's injury, he's been the best dom
 
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/npb_lhp_fb.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/npb_lhp_fb.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>Among lefities, minimum 100 fastball thrown, Sotani's fastball is in the 80th percentile in terms of velocity.</div>
 
@@ -93,7 +94,7 @@ All-in-all, Sotani looks to take the torch from Shunpeita Yamashita as the poste
 </div>
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/orix_starters.html' | relative_url }}" frameborder='0' scrolling='no' height="550" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/orix_starters.html' | relative_url }}" frameborder='0' scrolling='no' height="550" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>Because he is not a full-time member of Orix's starting, Kyosuke Saito does not have innings under his belt. However in his very small sample size, he has been quite effective.</div>
 
@@ -122,7 +123,7 @@ Success from lower round draft picks aren't unheard of, but they're always inter
 Orix doesn't only have elite starters, but they've also put out lights-out relievers as well, such as Yuki Udagawa and Soichiro Yamazaki. Udagawa and Yamazaki haven't been playing as much this season, but Kotajima's been holding down the fort in spectacular fashion, starting his career with 21 scoreless pitching appearances. While a 0.00 ERA obviously isn't sustainable, his 3.06 FIP is still good for a 94 FIP-.
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/orix_bullpen.html' | relative_url }}" frameborder='0' scrolling='no' height="500" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/orix_bullpen.html' | relative_url }}" frameborder='0' scrolling='no' height="500" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>Even if his 0.00 ERA can't continue forever, Kotajima's FIP is still competitive among Orix bullpen arms and he's consuming innings while doing it. Only an NPB veteran (Kazutomo Iguchi) and an MLB veteran (Andres Machado) players have better FIP and more innings. Remember, Kotajima is keeping up as a rookie.</div>
 
@@ -140,7 +141,7 @@ Even if Seiryu Kotajima may be experiencing some luck right now, it looks like O
 Orix's 2021 first round draft pick Ren Mukunoki started hot out the gate in 2022, pitching to a 1.02 ERA across four starts (one being one out away from a no-hitter) before needing Tommy John surgery.
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/orix_farm_fip_mukunoki.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/orix_farm_fip_mukunoki.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>Mukunoki has been hard at work on the farm since coming back from Tommy John.</div>
 
@@ -161,7 +162,7 @@ If you thought Orix finding relative success with a sixth rounder was impressive
 There are only two people who have pitched more innings than Ren Mukunoki on the farm, and one of them has a 3.78 ERA. The other one is Kazuma Satoh, who sports a 1.99 ERA while leading the farm in IP. Satoh has both more IP and a lower ERA than Mukunoki on the farm, but while Mukunoki was a first round pick, Satoh was a developmental draft pick in 2019.
 
 <div class="l-body" align="center">
-  <iframe src="{{ '/assets/plotly/orix_farm_fip_satoh.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/orix_pitching_lab/orix_farm_fip_satoh.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 <div class='caption'>In the previous graph, you might have noticed one player with more IP than Mukunoki while still having a sub-100 FIP-. That would be Kazuma Satoh.</div>
 
