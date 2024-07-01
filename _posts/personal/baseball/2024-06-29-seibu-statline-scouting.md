@@ -35,7 +35,7 @@ thumbnail: /assets/img/seibu_statline_scouting/seibu_statline_scouting.png
 
 ## Into the lion’s den
 
-Tatsuya Imai. Kaima Taira. Kona Takahashi. Chihiro Sumida. The Saitama Seibu Lion’s pitching lab has produced a stacked rotation. This is all without mentioning PL ROY frontrunner Natsuki Takeuchi and their [NPB #3 prospect “the Randy Johnson of Japan” Shinnosuke Hada](https://twitter.com/yakyucosmo/status/1742538964089901430). With this incoming youth movement, the question is: just how deep does the lion’s den go?
+Tatsuya Imai. Kaima Taira. Kona Takahashi. Chihiro Sumida. The Saitama Seibu Lion’s pitching lab has produced a stacked rotation. This is all without mentioning PL ROY frontrunner Natsuki Takeuchi and their [NPB #4 prospect “the Randy Johnson of Japan” Shinnosuke Hada](https://twitter.com/yakyucosmo/status/1742538964089901430). With this incoming youth movement, the question is: just how deep does the lion’s den go?
 
 We take a crack at [Foolish Bailey-style Statline Scouting](https://www.youtube.com/watch?v=KHR6ODadQJ8&list=PL3lJFzNSaN7RHuqCVSue8ewUx8lqyZkjU) the Lions farm looking for pitching prospects. In the spirit of statline scouting, we’ll be excluding the most intuitive choices, Natsuki Takeuchi and Shinnosuke Hada.
 
