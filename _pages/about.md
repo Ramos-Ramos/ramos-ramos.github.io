@@ -7,7 +7,7 @@ subtitle: PhD students interested in representation learning and robustness.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ISLab, Techno-Allianace Building 4F</p>
