@@ -2,7 +2,7 @@
 layout: distill
 title: "into the lion’s den: statline scouting the seibu lions farm’s pitchers"
 description: in the jungle, the mighty jungle, the lion sleeps tonight. but which lions are YOU sleeping on?
-categories: personal baseball
+categories: personal baseball npb
 date: 2024-06-29
 
 authors:

@@ -2,7 +2,7 @@
 layout: distill
 title: "orix pitching lab goes brrr: 5 new(ish) buffaloes pitchers to keep an eye on this year"
 description: brrrrrr
-categories: personal baseball
+categories: personal baseball npb
 date: 2024-06-18
 
 authors:
