@@ -10,6 +10,7 @@ children:
     - title: divider
     - title: personal blog
       permalink: /personal_blog/
+    - title: divider
     - title: sports graphics
       permalink: /sports_graphics/
 ---
