@@ -196,6 +196,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  sports_graphics:
+    output: true
+    permalink: /sports_graphics/:path/
 
 announcements:
   enabled: true

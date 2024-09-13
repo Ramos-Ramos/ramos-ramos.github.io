@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <div class="row">
+      <div class="col-sm-6 mt-3 mt-md-0 mx-auto">
+          {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" zoomable=true%}
+      </div>
+    </div>
+    {{ content }}
+  </article>
+</div>

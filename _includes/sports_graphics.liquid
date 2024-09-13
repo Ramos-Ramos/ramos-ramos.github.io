@@ -1,0 +1,29 @@
+<div class="col mt-3">
+  <div class="card h-100 hoverable">
+    {%
+      include figure.liquid
+      loading="eager"
+      path=sports_graphic.img
+      sizes = "250px"
+      alt="sports_graphic thumbnail"
+      class="card-img-top"
+      zoomable=true
+    %}
+    <div class="card-body">
+      <h4 class="card-title">{{ sports_graphic.title }}</h4>
+      <p class="card-text">
+        {{ sports_graphic.date | date: "%b %e, %Y"}}
+        {% if sports_graphic.description %}
+          <br>{{ sports_graphic.description }}
+        {% endif %}
+      </p>
+      {% if sports_graphic.tags != "" %}
+        <p class="card-text">
+        {% for tag in sports_graphic.tags %}
+          <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }} &nbsp;
+        {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
