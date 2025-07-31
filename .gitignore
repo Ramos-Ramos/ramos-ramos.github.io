@@ -1,4 +1,4 @@
-_site
+._site
 .bundle
 .sass-cache
 .jekyll-cache
@@ -10,3 +10,4 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
+.venv
