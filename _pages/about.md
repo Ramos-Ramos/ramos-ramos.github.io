@@ -10,10 +10,11 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ISLab, Techno-Allianace Building 4F</p>
-    <p>Osaka University</p>
-    <p>Suita, Osaka</p>
-    <p>(This picture isn't from there)</p>
+    <!-- <p>ISLab, Techno-Allianace Building 4F</p> -->
+    <!-- <p>Osaka University</p> -->
+    <!-- <p>Suita, Osaka</p> -->
+    <!-- <p>(This picture isn't from there)</p> -->
+    <p>📷 まぐみさん</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
