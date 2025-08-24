@@ -141,6 +141,9 @@
 {% if site.x_username_0 %}
   <a href="https://twitter.com/{{ site.x_username_0 }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
 {% endif %}
+{% if site.bluesky_url_0 %}
+  <a href="https://bsky.app/profile/{{ site.bluesky_url_0 }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+{% endif %}
 {%- if site.first_name_1 -%}
 <br>
 <i class="fa-solid fa-r"></i>
@@ -150,4 +153,7 @@
 {% endif %}
 {% if site.x_username_1 %}
   <a href="https://twitter.com/{{ site.x_username_1 }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+{% endif %}
+{% if site.bluesky_url_1 %}
+  <a href="https://bsky.app/profile/{{ site.bluesky_url_1 }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
 {% endif %}

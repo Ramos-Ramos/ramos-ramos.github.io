@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the [ISLab](https://www.is.ids.osaka-u.ac.jp/) of Osaka University as research students
+Joined the [ISLab](https://www.is.ids.osaka-u.ac.jp/) of Osaka University as research students.

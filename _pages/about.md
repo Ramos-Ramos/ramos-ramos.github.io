@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 
 **Patrick and Ryan Ramos**. PhD students at the [ISLab](https://www.is.ids.osaka-u.ac.jp/) under the Institute of Datability Science at Osaka University.
 
-Our research interests include `representation learning` and `robustness to distribution shifts`.
+Our research interests include `compute vision` and `multimodal machine learning`.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -10,8 +10,7 @@
       Liew, Kongmeng  and
       Aramaki, Eiji  and
       Wakamiya, Shoko",
-    booktitle = "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis",
-    month = may,
+    booktitle = "ACLW",
     year = "2022",
     address = "Dublin, Ireland",
     publisher = "Association for Computational Linguistics",
@@ -28,8 +27,7 @@
     bibtex_show={true},
     title = {Knowledge Distillation with Relative Representations for Image Representation Learning},
     author = {Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
-    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
-    month = june,
+    booktitle = {CORES},
     year = {2023},
     url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_14",
     doi = "https://doi.org/10.1007/978-3-031-41630-9_14",
@@ -43,8 +41,7 @@
     bibtex_show={true},
     title = {Exploring Text-Guided Synthetic Distribution Shifts for Robust Image Classification},
     author = {Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
-    booktitle = {Progress on Pattern Classification, Image Processing and Communications - Proceedings of the CORES and IP&C Conferences 2023},
-    month = june,
+    booktitle = {CORES},
     year = {2023},
     url = "https://link.springer.com/chapter/10.1007/978-3-031-41630-9_16",
     doi = "https://doi.org/10.1007/978-3-031-41630-9_16",
@@ -61,7 +58,6 @@
   school={Ateneo de Manila University},
   year={2023},
   address={Quezon City, Philippines},
-  month=june,
   abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.},
   pdf="Ramos_Patrick_MS_Thesis_Manuscript.pdf"
 }
@@ -74,7 +70,6 @@
   school={Ateneo de Manila University},
   year={2023},
   address={Quezon City, Philippines},
-  month=june,
   abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.},
   pdf="Ramos_Ryan_MS Thesis.pdf"
 }
@@ -84,11 +79,26 @@
     bibtex_show={true},
     author={Ramos, Patrick and Gonthier, Nicolas and Khan, Selina and Nakashima, Yuta and Garcia, Noa},
     title={No Annotations for Object Detection in Art through Stable Diffusion},
-    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month={February},
+    booktitle={WACV},
     year={2025},
     url={https://arxiv.org/abs/2412.06286},
     pdf={https://arxiv.org/pdf/2412.06286},
     html={https://arxiv.org/abs/2412.06286},
-    abstract={Object detection in art is a valuable tool for the digital humanities, as it allows for faster identification of objects in artistic and historical images compared to humans. However, annotating such images poses significant challenges due to the need for specialized domain expertise. We present NADA (n annotations for detection in art), a pipeline that leverages diffusion models’ art-related knowledge for object detection in paintings without the need for full bounding box supervision. Our method, which supports both weakly-supervised and zero-shot scenarios and does not require any fine-tuning of its pretrained components, consists of a class proposer based on large vision-language models and a class-conditioned detector based on Stable Diffusion. NADA is evaluated on two artwork datasets, ArtDL 2.0 and IconArt, outperforming prior work in weakly-supervised detection, while being the first work for zero-shot object detection in art. Code is available at https://github.com/patrick-john-ramos/nada},
+    abstract={Object detection in art is a valuable tool for the digital humanities, as it allows for faster identification of objects in artistic and historical images compared to humans. However, annotating such images poses significant challenges due to the need for specialized domain expertise. We present NADA (n annotations for detection in art), a pipeline that leverages diffusion models’ art-related knowledge for object detection in paintings without the need for full bounding box supervision. Our method, which supports both weakly-supervised and zero-shot scenarios and does not require any fine-tuning of its pretrained components, consists of a class proposer based on large vision-language models and a class-conditioned detector based on Stable Diffusion. NADA is evaluated on two artwork datasets, ArtDL 2.0 and IconArt, outperforming prior work in weakly-supervised detection, while being the first work for zero-shot object detection in art. Code is available at https://github.com/patrick-john-ramos/nada}
+}
+
+@inproceedings{ramos2025processingacquisitiontracesvisual,
+    abbr={ICCV 2025},
+    bibtex_show={true},
+    author={Ryan Ramos and Vladan Stojnić and Giorgos Kordopatis-Zilos and Yuta Nakashima and Giorgos Tolias and Noa Garcia},
+    title={Processing and acquisition traces in visual encoders: What does CLIP know about your camera?},
+    booktitle={ICCV},
+    year={2025},
+    url={https://arxiv.org/abs/2508.10637},
+    pdf={https://arxiv.org/pdf/2508.10637},
+    html={https://arxiv.org/abs/2508.10637},
+    abstract={
+    Prior work has analyzed the robustness of visual encoders to image transformations and corruptions, particularly in cases where such alterations are not seen during training. When this occurs, they introduce a form of distribution shift at test time, often leading to performance degradation. The primary focus has been on severe corruptions that, when applied aggressively, distort useful signals necessary for accurate semantic predictions.
+    We take a different perspective by analyzing parameters of the image acquisition process and transformations that may be subtle or even imperceptible to the human eye. We find that such parameters are systematically encoded in the learned visual representations and can be easily recovered. More strikingly, their presence can have a profound impact, either positively or negatively, on semantic predictions. This effect depends on whether there is a strong correlation or anti-correlation between semantic labels and these acquisition-based or processing-based labels. Our code and data are available at: https://github.com/ryan-caesar-ramos/visual-encoder-traces
+    }
 }

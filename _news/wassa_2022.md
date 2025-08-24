@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*Emotion Analysis of Writers and Readers of Japanese Tweets on Vaccinations* accepted at WASSA 2022
+One paper on tweet emotion analysis accepted at [WASSA 2022](https://wassa-workshop.github.io/2022/).

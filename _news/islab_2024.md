@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the [ISLab](https://www.is.ids.osaka-u.ac.jp/) of Osaka University as PhD students (no this is not an April Fool's joke this is just when the term starts)
+Joined the [ISLab](https://www.is.ids.osaka-u.ac.jp/) of Osaka University as PhD students (no this is not an April Fool's joke this is just when the term starts).
