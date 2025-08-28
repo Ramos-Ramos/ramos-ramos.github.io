@@ -64,6 +64,7 @@
       this.affiliation = object.affiliation; // 'Google Brain'
       this.affiliationURL = object.affiliationURL; // 'https://g.co/brain'
       this.affiliations = object.affiliations || []; // new-style affiliations
+      this.notation = object.notation || ""
     }
 
     // 'Chris'
@@ -77,6 +78,13 @@
       const names = this.name.split(" ");
       return names[names.length - 1];
     }
+  }
+
+  class Notation {
+  	constructor(object) {
+  		this.symbol = object.symbol;
+  		this.description = object.description;
+  	}
   }
 
   function mergeFromYMLFrontmatter(target, source) {
@@ -104,6 +112,7 @@
     if (source.doi) {
       target.doi = source.doi;
     }
+    target.notations = source.notations
   }
 
   class FrontMatter {
@@ -170,6 +179,8 @@
       //  doi: '10.23915/distill.00001',
       this.doi = undefined;
       this.publishedDate = undefined;
+
+      this.notations = []
     }
 
     // Example:
@@ -2082,9 +2093,9 @@ d-appendix > distill-appendix {
           ${
             author.personalURL
               ? `
-            <a class="name" href="${author.personalURL}">${author.name}</a>`
+            <a class="name" href="${author.personalURL}">${author.name}</a>${author.notation}`
               : `
-            <span class="name">${author.name}</span>`
+            <span class="name">${author.name}</span>${author.notation}`
           }
         </p>
         <p class="affiliation">
@@ -2109,6 +2120,18 @@ d-appendix > distill-appendix {
           : `
         <p><em>Not published yet.</em></p>`
       }
+    </div>
+    <div>
+    	${frontMatter.notations
+    	.map(
+    	  (notation) => `
+    	<p>
+    	  <span>${notation.symbol}${notation.description}</span>
+    	</p>
+    	  `
+    	)
+    	.join("")
+    	}
     </div>
   </div>
 `;

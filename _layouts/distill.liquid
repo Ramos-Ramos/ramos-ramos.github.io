@@ -57,7 +57,8 @@
                     "name": "{{ author.affiliations.name }}",
                     "url": "{{ author.affiliations.url }}"
                   }
-                ]
+                ],
+                "notation": "{{ author.notation }}"
               }{% if forloop.last == false %},{% endif %}
               {% endfor %}
             ],
@@ -74,7 +75,15 @@
                   "display": true
                 }
               ]
-            }
+            },
+            "notations": [
+             {% for notation in page.notations %}
+             {
+               "symbol": "{{ notation.symbol }}",
+               "description": "{{ notation.description }}"
+             }{% if forloop.last == false %},{% endif %}
+             {% endfor %}
+           ]
           }
     </script>
   </d-front-matter>
