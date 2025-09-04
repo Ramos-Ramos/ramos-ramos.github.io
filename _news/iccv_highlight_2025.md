@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accpeted [ICCV 2025](https://iccv.thecvf.com/) paper was selected as a higlight.
+Accepted [ICCV 2025](https://iccv.thecvf.com/) paper was selected as a higlight.
