@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: PhD students interested in representation learning and robustness.
+subtitle: PhD students at the <a href=https://www.is.ids.osaka-u.ac.jp/>ISLab</a> under the D3 Center at Osaka University.
 
 profile:
   align: right
@@ -21,9 +21,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**Patrick and Ryan Ramos**. PhD students at the [ISLab](https://www.is.ids.osaka-u.ac.jp/) under the Institute of Datability Science at Osaka University.
-
-Our research interests include `compute vision` and `multimodal machine learning`.
+**Patrick and Ryan Ramos**. Interested in `computer vision` and `multimodal machine learning`.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

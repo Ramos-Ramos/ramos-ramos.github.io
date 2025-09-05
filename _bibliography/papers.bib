@@ -2,7 +2,7 @@
 ---
 
 @inproceedings{ramos-etal-2022-emotion,
-    abbr={WASSA 2022},
+    abbr={ACLW 2022},
     bibtex_show={true},
     title = "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations",
     author = "Ramos, Patrick John  and
@@ -12,14 +12,34 @@
       Wakamiya, Shoko",
     booktitle = "ACLW",
     year = "2022",
-    address = "Dublin, Ireland",
-    publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2022.wassa-1.10",
-    doi = "10.18653/v1/2022.wassa-1.10",
-    pages = "95--103",
     abstract = "Public opinion in social media is increasingly becoming a critical factor in pandemic control. Understanding the emotions of a population towards vaccinations and COVID-19 may be valuable in convincing members to become vaccinated. We investigated the emotions of Japanese Twitter users towards Tweets related to COVID-19 vaccination. Using the WRIME dataset, which provides emotion ratings for Japanese Tweets sourced from writers (Tweet posters) and readers, we fine-tuned a BERT model to predict levels of emotional intensity. This model achieved a training accuracy of $MSE$ = 0.356. A separate dataset of 20,254 Japanese Tweets containing COVID-19 vaccine-related keywords was also collected, on which the fine-tuned BERT was used to perform emotion analysis. Afterwards, a correlation analysis between the extracted emotions and a set of vaccination measures in Japan was conducted.The results revealed that surprise and fear were the most intense emotions predicted by the model for writers and readers, respectively, on the vaccine-related Tweet dataset. The correlation analysis also showed that vaccinations were weakly positively correlated with predicted levels of writer joy, writer/reader anticipation, and writer/reader trust.",
     html="https://aclanthology.org/2022.wassa-1.10/",
     pdf="https://aclanthology.org/2022.wassa-1.10.pdf"
+}
+
+@mastersthesis{ramos2023distillclip,
+  abbr={MS Thesis},
+  bibtex_show={true},
+  author={Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
+  title={DistillCLIP: Knowledge Distillation of Contrastive Language-Image Pretrained Models},
+  school={Ateneo de Manila University},
+  year={2023},
+  address={Quezon City, Philippines},
+  abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.},
+  pdf="Ramos_Patrick_MS_Thesis_Manuscript.pdf"
+}
+
+@mastersthesis{ramos2023causal,
+  abbr={MS Thesis},
+  bibtex_show={true},
+  author={Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
+  title={Causal Interventions for Robust Visual Question Answering},
+  school={Ateneo de Manila University},
+  year={2023},
+  address={Quezon City, Philippines},
+  abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.},
+  pdf="Ramos_Ryan_MS Thesis.pdf"
 }
 
 @inproceedings{ramos2023knowledge,
@@ -50,47 +70,41 @@
     pdf = "CORES_2023_Exploring_Text_Guided_Synthetic_Distribution_Shifts_for_Robust_Image_Classification.pdf"
 }
 
-@mastersthesis{ramos2023distillclip,
-  abbr={MS Thesis},
-  bibtex_show={true},
-  author={Ramos, Patrick and Alampay, Raphael and Abu, Patricia},
-  title={DistillCLIP: Knowledge Distillation of Contrastive Language-Image Pretrained Models},
-  school={Ateneo de Manila University},
-  year={2023},
-  address={Quezon City, Philippines},
-  abstract={Despite CLIP's performance on vision-language tasks, CLIP's size limits its deployment in low resource environments. We propose a knowledge distillation scheme to compress a teacher CLIP into a smaller student model we term DistillCLIP. Our framework consists of distilling both intra-modal and inter-modal similarity maps between and within image and text embeddings. DistillCLIP is 43.69% the size of CLIP and has 82.43% its FLOPs. We show that the ability of DistillCLIP to retain teacher performance on zero-shot transfer tasks may depend on the semantic granularity of class labels, preserving only 63.81% of teacher accuracy on average. Meanwhile DistillCLIP's linear probe performance matches and on some datasets surpasses that of the teacher CLIP with an average retention rate of 100.53%. However, DistillCLIP retains only 12.28% teacher accuracy on average on distribution shift datasets. We also demonstrate that DistillCLIP is able to preserve 99.34% teacher accuracy on video accident recognition in dashcam videos.},
-  pdf="Ramos_Patrick_MS_Thesis_Manuscript.pdf"
-}
-
-@mastersthesis{ramos2023causal,
-  abbr={MS Thesis},
-  bibtex_show={true},
-  author={Ramos, Ryan and Alampay, Raphael and Abu, Patricia},
-  title={Causal Interventions for Robust Visual Question Answering},
-  school={Ateneo de Manila University},
-  year={2023},
-  address={Quezon City, Philippines},
-  abstract={Contemporary visual question answering (VQA) models have been shown to exhibit poor out-of-distribution (OOD) generalization ability due to their tendency to learn superficial statistical correlations from training data as opposed to more reliable underlying causal features. This can be addressed by widening the training distribution through data augmentation, but though recent advances have been made in generative modelling and training large foundation models, the application of these methods for data augmentation targeting robust VQA remains underexplored. This study proposes a novel approach to ensembling foundation models in order to generate OOD datapoints to widen the distribution of a training dataset. In particular, this study proposes a novel token sampling method to perturb existing image captions into OOD captions, which can then be used to steer a pretrained text-to-image model. The resulting images along with the original questions and answers can then be used to finetune a VQA model that has only been trained on the original training dataset. This method is empirically shown to lead to robustness improvements; with a BLIP pretrained on VQA v2.0, finetuning with the study's generated data introduces a 7.59% accuracy drop reduction on AQUA and a 1.43% accuracy drop reduction on VizWiz.},
-  pdf="Ramos_Ryan_MS Thesis.pdf"
-}
-
-@inproceedings{Ramos_2025_WACV,
-    abbr={WACV 2025},
+@inproceedings{ramos2025globallocalsocialbias,
+    abbr={ICCVW 2025},
     bibtex_show={true},
-    author={Ramos, Patrick and Gonthier, Nicolas and Khan, Selina and Nakashima, Yuta and Garcia, Noa},
-    title={No Annotations for Object Detection in Art through Stable Diffusion},
-    booktitle={WACV},
+    author={Ryan Ramos and Yusuke Hirota and Yuta Nakashima and Noa Garcia},
+    title={From Global to Local: Social Bias Transfer in CLIP},
+    booktitle={ICCVW},
     year={2025},
-    url={https://arxiv.org/abs/2412.06286},
-    pdf={https://arxiv.org/pdf/2412.06286},
-    html={https://arxiv.org/abs/2412.06286},
-    abstract={Object detection in art is a valuable tool for the digital humanities, as it allows for faster identification of objects in artistic and historical images compared to humans. However, annotating such images poses significant challenges due to the need for specialized domain expertise. We present NADA (n annotations for detection in art), a pipeline that leverages diffusion models’ art-related knowledge for object detection in paintings without the need for full bounding box supervision. Our method, which supports both weakly-supervised and zero-shot scenarios and does not require any fine-tuning of its pretrained components, consists of a class proposer based on large vision-language models and a class-conditioned detector based on Stable Diffusion. NADA is evaluated on two artwork datasets, ArtDL 2.0 and IconArt, outperforming prior work in weakly-supervised detection, while being the first work for zero-shot object detection in art. Code is available at https://github.com/patrick-john-ramos/nada}
+    url={https://arxiv.org/abs/2508.17750},
+    pdf={https://arxiv.org/pdf/2508.17750},
+    html={https://arxiv.org/abs/2508.17750},
+    abstract={
+    The recycling of contrastive language-image pre-trained (CLIP) models as backbones for a large number of downstream tasks calls for a thorough analysis of their transferability implications, especially their well-documented reproduction of social biases and human stereotypes. How do such biases, learned during pre-training, propagate to downstream applications like visual question answering or image captioning? Do they transfer at all?
+    We investigate this phenomenon, referred to as bias transfer in prior literature, through a comprehensive empirical analysis. Firstly, we examine how pre-training bias varies between global and local views of data, finding that bias measurement is highly dependent on the subset of data on which it is computed. Secondly, we analyze correlations between biases in the pre-trained models and the downstream tasks across varying levels of pre-training bias, finding difficulty in discovering consistent trends in bias transfer. Finally, we explore why this inconsistency occurs, showing that under the current paradigm, representation spaces of different pre-trained CLIPs tend to converge when adapted for downstream tasks. We hope this work offers valuable insights into bias behavior and informs future research to promote better bias mitigation practices.
+    }
+}
+
+@inproceedings{ramos2025dataleakagevisualdatasets,
+    abbr={ICCVW 2025},
+    bibtex_show={true},
+    author={Patrick Ramos* and Ryan Ramos* and Noa Garcia},
+    title={Data Leakage in Visual Datasets},
+    booktitle={ICCVW},
+    year={2025},
+    url={https://arxiv.org/abs/2508.17416},
+    pdf={https://arxiv.org/pdf/2508.17416},
+    html={https://arxiv.org/abs/2508.17416},
+    abstract={
+    We analyze data leakage in visual datasets. Data leakage refers to images in evaluation benchmarks that have been seen during training, compromising fair model evaluation. Given that large-scale datasets are often sourced from the internet, where many computer vision benchmarks are publicly available, our efforts are focused into identifying and studying this phenomenon. We characterize visual leakage into different types according to its modality, coverage, and degree. By applying image retrieval techniques, we unequivocally show that all the analyzed datasets present some form of leakage, and that all types of leakage, from severe instances to more subtle cases, compromise the reliability of model evaluation in downstream tasks.
+    }
 }
 
 @inproceedings{ramos2025processingacquisitiontracesvisual,
     abbr={ICCV 2025},
     bibtex_show={true},
-    author={Ryan Ramos and Vladan Stojnić and Giorgos Kordopatis-Zilos and Yuta Nakashima and Giorgos Tolias and Noa Garcia},
+    author={Ryan Ramos* and Vladan Stojnić* and Giorgos Kordopatis-Zilos and Yuta Nakashima and Giorgos Tolias and Noa Garcia},
     title={Processing and acquisition traces in visual encoders: What does CLIP know about your camera?},
     booktitle={ICCV},
     year={2025},
@@ -102,3 +116,17 @@
     We take a different perspective by analyzing parameters of the image acquisition process and transformations that may be subtle or even imperceptible to the human eye. We find that such parameters are systematically encoded in the learned visual representations and can be easily recovered. More strikingly, their presence can have a profound impact, either positively or negatively, on semantic predictions. This effect depends on whether there is a strong correlation or anti-correlation between semantic labels and these acquisition-based or processing-based labels. Our code and data are available at: https://github.com/ryan-caesar-ramos/visual-encoder-traces
     }
 }
+
+@inproceedings{Ramos_2025_WACV,
+    abbr={WACV 2025},
+    bibtex_show={true},
+    author={Ramos, Patrick and Gonthier, Nicolas and Khan, Selina and Nakashima, Yuta and Garcia, Noa},
+    title={No Annotations for Object Detection in Art through Stable Diffusion},
+    booktitle={WACV},
+    year={2025},
+    url={https://arxiv.org/abs/2412.06286},
+    pdf={https://openaccess.thecvf.com/content/WACV2025/papers/Ramos_No_Annotations_for_Object_Detection_in_Art_through_Stable_Diffusion_WACV_2025_paper.pdf},
+    html={https://arxiv.org/abs/2412.06286},
+    abstract={Object detection in art is a valuable tool for the digital humanities, as it allows for faster identification of objects in artistic and historical images compared to humans. However, annotating such images poses significant challenges due to the need for specialized domain expertise. We present NADA (n annotations for detection in art), a pipeline that leverages diffusion models’ art-related knowledge for object detection in paintings without the need for full bounding box supervision. Our method, which supports both weakly-supervised and zero-shot scenarios and does not require any fine-tuning of its pretrained components, consists of a class proposer based on large vision-language models and a class-conditioned detector based on Stable Diffusion. NADA is evaluated on two artwork datasets, ArtDL 2.0 and IconArt, outperforming prior work in weakly-supervised detection, while being the first work for zero-shot object detection in art. Code is available at https://github.com/patrick-john-ramos/nada}
+}
+
