@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accepted [ICCV 2025](https://iccv.thecvf.com/) paper was selected as a higlight.
+Accepted [ICCV 2025](https://iccv.thecvf.com/Conferences/2025) paper was selected as a highlight.
